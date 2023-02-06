@@ -1,0 +1,140 @@
+.sidebar_items {
+  width: 290px;
+  background: #fff !important;
+  position: relative;
+  height: 90vh;
+  border-right: 1px solid #e8e8e8;
+}
+
+.sidebar_items_2 {
+  width: 100px;
+  background: #fff;
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+  border-right: 1px solid #e8e8e8;
+}
+
+.sidebar_items .icons i {
+  color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  cursor: pointer;
+  left: 90%;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgba(150, 150, 150, 0.75);
+}
+
+.sidebar_items_2 .icons i {
+  color: rgba(150, 150, 150, 0.75);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  cursor: pointer;
+  left: 28%;
+  top: 10px;
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.navigation_list {
+  padding-top: 40px;
+  padding-left: 2px;
+}
+.navigation_list a {
+  text-decoration: none;
+}
+
+.navigation_list li {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  list-style-type: none;
+  color: black;
+  padding: 10px 0px;
+  padding-left: 30px;
+}
+
+/* .navigation_list li:hover {
+  background: #001489;
+  color: white;
+} */
+
+.navigation_list i {
+  margin-right: 10px;
+  color: #969696;
+}
+.sidebar ul li span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969696;
+  margin-left: 12px;
+}
+.sidebar ul li span:hover {
+  color: #001489;
+  /* color: white; */
+  display: inline-block;
+}
+.mobile_sidebar,
+.mobile_sidebar_hidden {
+  display: none;
+}
+@media screen and (max-width: 1480px) {
+  .sidebar_items {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cancel_mob_tab {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+  }
+  .sidebar_items {
+    width: 250px;
+  }
+  .mobile_sidebar {
+    display: block;
+    position: relative;
+  }
+  .mobile_sidebar .sidebar_items {
+    position: fixed;
+    width: 70%;
+    z-index: 111111;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .mobile_sidebar_hidden {
+    display: none;
+  }
+  .overlay {
+    background: #00000085;
+    inset: 0;
+    position: fixed;
+    z-index: 111111;
+  }
+}
+@media screen and (max-width: 570px) {
+  .mobile_sidebar .sidebar_items {
+    width: 280px;
+  }
+}

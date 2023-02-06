@@ -1,0 +1,86 @@
+.card_wrapepr {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 15px;
+}
+.top_card_ {
+  display: flex;
+  justify-content: space-between;
+}
+.middile_card,
+.date_section {
+  display: flex;
+  justify-content: space-between;
+}
+.timer {
+  text-align: center;
+}
+.timer h2 {
+  font-weight: 100;
+  font-size: 80px;
+  line-height: 96px;
+  color: #000000;
+  margin: 0;
+}
+.timer p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.date_section {
+  margin-top: 40px;
+  align-items: center;
+}
+.date_section button {
+  background: #001489;
+  border-radius: 3px;
+  padding: 8px 24px;
+  font-weight: 700;
+  font-size: 12px;
+  /* line-height: 22px; */
+  color: #ffffff;
+  border: none;
+}
+.dateNedit h6 {
+  margin: 0;
+  color: #000000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.07em;
+}
+.dateNedit p {
+  color: #000000;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  margin: 0;
+}
+.cards_icons i {
+  color: #969696;
+  cursor: pointer;
+}
+.cards_icons i:nth-child(2) {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1480px) {
+  .timer h2 {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .card_wrapepr {
+    margin: 18px 0px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .timer h2 {
+    font-size: 52px;
+    line-height: 80px;
+  }
+}

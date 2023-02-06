@@ -1,0 +1,58 @@
+.profile_detail_wrapper {
+  width: 200px;
+  background: white;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+}
+.nick {
+  background: #ffc72c;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.nick p {
+  color: #001489;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 0px;
+}
+.profile_top {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.full_name {
+  margin-bottom: 0px;
+}
+.bottom_profile {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.bottom_profile a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 24px;
+  color: #000000;
+}
+.full_name {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 24px;
+  color: #000000;
+}
+.Dissp {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24px;
+  color: #969696;
+  margin-bottom: 0px;
+}

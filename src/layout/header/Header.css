@@ -1,0 +1,181 @@
+.header_wrapper {
+  background: #001489;
+  padding: 15px 0px;
+}
+.logo_section h2 {
+  color: white;
+  margin-left: 8px;
+  margin-bottom: 0px;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.input {
+  position: relative;
+}
+.input i {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: #969696;
+}
+.input input {
+  padding: 6px 40px;
+  border-radius: 8px !important;
+  border: 1px solid #e4e4e4 !important;
+}
+.profile_info_section {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header .name {
+  background: #ffc72c;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .name p {
+  margin: 0px;
+  padding: 4px 6px;
+}
+
+.info_left .bells_icon,
+.info_left .faq_iconnn {
+  margin-left: 24px;
+  cursor: pointer;
+}
+.profile_icon .name {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+header button.btn.dropdown-toggle {
+  color: white !important;
+}
+
+.dropdown p,
+.dropdown p a {
+  color: white;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.dropdown p span {
+  margin-left: 5px;
+}
+.profile_icon,
+.info_left {
+  position: relative;
+}
+.card_profile {
+  position: absolute;
+  top: 50px;
+  z-index: 111111;
+  right: 0px;
+}
+
+.faq_main_wrap,
+.notif_wrapper {
+  position: absolute;
+  top: 50px;
+  z-index: 11;
+  right: 0px;
+}
+.mobile_burger_icon {
+  display: none;
+}
+@media screen and (max-width: 1280px) {
+  .logo_section h2 {
+    font-size: 20px;
+  }
+  .profile_icon .name {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .info_left .bells_icon,
+  .info_left .faq_iconnn {
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .logo_section h2 {
+    font-size: 18px;
+  }
+  /* .md_screen_ {
+    display: none;
+  } */
+}
+@media screen and (max-width: 768px) {
+  .logo_image {
+    max-height: 40px;
+    height: 40px;
+  }
+  .header_wrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 111111111;
+  }
+  .sidebar,
+  .dropdown {
+    display: none;
+  }
+  .mobile_burger_icon {
+    display: block;
+    margin-left: 30px;
+  }
+  .mobile_burger_icon i {
+    color: white;
+  }
+  header .name {
+    width: 26px;
+    height: 26px;
+  }
+
+  .header--left {
+    width: 40% !important;
+  }
+  .header--center {
+    width: 25% !important;
+  }
+  .header--right {
+    width: 35% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo_section h2 {
+    display: none;
+  }
+  /* .mobile_header_screen {
+    width: 30% !important;
+    float: left;
+  }
+  .mobile_header_screen2 {
+    width: 70% !important;
+    float: left;
+  } */
+
+  .header--left {
+    width: 20% !important;
+  }
+  .header--center {
+    width: 30% !important;
+  }
+  .header--right {
+    width: 50% !important;
+  }
+  .input i {
+    display: none;
+  }
+  .info_left .bells_icon,
+  .info_left .faq_iconnn {
+    margin-left: 7px;
+  }
+
+  .input input {
+    padding: 6px;
+    padding-left: 15px;
+  }
+}

@@ -1,0 +1,49 @@
+.home_wrapper {
+  padding: 20px 30px;
+  background: #f7f7f7;
+}
+.heading_home h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #1c1c1c;
+}
+.heading_home p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969696;
+}
+.add_widget button {
+  background: #ffc72c;
+  border-radius: 3px;
+  color: #001489;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.36px;
+  padding: 8px 20px;
+  border: none;
+}
+.add_widget {
+  position: relative;
+}
+.add_wi_here {
+  position: absolute;
+  right: 0px;
+  top: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .heading_home h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .heading_home h2 {
+    font-size: 24px;
+  }
+  .home_wrapper {
+    padding: 20px;
+  }
+}

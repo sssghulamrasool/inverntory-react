@@ -1,0 +1,51 @@
+.FAq_wrapper {
+  background-color: white;
+  width: 200px;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+}
+.question_heading {
+  padding: 6px 0px;
+  text-align: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+.question_heading h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.text_section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.text_section input {
+  height: 75px;
+  width: 100%;
+}
+.text_section {
+  padding: 10px 16px;
+}
+.submit_button {
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: end;
+}
+.submit_button button {
+  background: #001489;
+  border-radius: 3px;
+  padding: 12px 20px;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  /* line-height: 22px; */
+}

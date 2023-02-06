@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+}
+.main_wrapper_ {
+  background-color: #f7f7f7;
+}
+@media screen and (max-width: 768px) {
+  .main_wrapper_ {
+    margin-top: 65px;
+  }
+}

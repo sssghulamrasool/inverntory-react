@@ -1,0 +1,32 @@
+.widget_wrapper {
+  width: 200px;
+  background: white;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+}
+.widget_title h2 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+}
+.list_widget {
+  text-align: start;
+}
+.list_widget ul {
+  padding-left: 0px;
+}
+.list_widget ul li {
+  list-style-type: none;
+  border-top: 1px solid #f2f2f2;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 24px;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
